@@ -1,36 +1,24 @@
-# AWS Cloud Security Lab
+# Lesson 1 – Creating a Secure AWS VPC
 
-## Overview
+## Objective
 
-This repository documents my hands-on journey learning AWS Cloud Security through real-world labs.
+Create a Virtual Private Cloud to establish the networking foundation for a secure AWS environment.
 
-The objective is to build a secure AWS environment while applying cloud security best practices used in enterprise environments.
+## Resources Created
 
----
+- 1 AWS VPC
+- CIDR Block: 10.0.0.0/16
+- Region: us-east-2 (Ohio)
 
-## Skills
+## Key Learnings
+
+- A VPC is a logically isolated network within AWS.
+- CIDR notation defines the available IP address space.
+- Using a /16 network allows future subnet expansion.
+- The VPC serves as the foundation for secure cloud deployments.
+
+## Skills Practiced
 
 - AWS Networking
-- VPC
-- EC2
-- IAM
-- Security Groups
-- Network ACLs
-- CloudTrail
-- GuardDuty
-- AWS Config
-- S3
-- Least Privilege
-- Cloud Security
-
----
-
-## Progress
-
-- ✅ Lesson 1 – Create a Secure VPC
-- ⏳ Lesson 2 – Secure EC2 Deployment
-- ⏳ Lesson 3 – Security Groups & NACLs
-- ⏳ Lesson 4 – IAM
-- ⏳ Lesson 5 – CloudTrail
-- ⏳ Lesson 6 – GuardDuty
-- ⏳ Lesson 7 – AWS Config
+- Infrastructure Planning
+- Cloud Security Fundamentals
